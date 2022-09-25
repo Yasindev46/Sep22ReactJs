@@ -1,0 +1,26 @@
+.navdiv{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(2, 65, 44);
+    padding-top: 5px;
+    text-align: center;
+}
+
+.navdiv a{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    background-color: rgb(1, 128, 86);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.navdiv img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
