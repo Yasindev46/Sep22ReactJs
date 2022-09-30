@@ -51,7 +51,9 @@ export const TodoAdvance =()=> {
     setNewText(id)
   };
   return (
-    <div className="Box2">
+    <div >
+      <h1 className="head">Todo List</h1>
+      <div className="Box2">
       <input
         type="text"
         style={{backgroundColor:isEdite?"yellow":"transparent",fontWeight:"bolder",fontSize:"20px",width:"240px"}}
@@ -64,14 +66,15 @@ export const TodoAdvance =()=> {
       {list.map((item) => {
         return (
           <div className="item">
-            <h1>{item.name}</h1>
-            <div style={{float:"right", position:"relative",top:"12px",right:"15px"}}>
+            <h2 className="itemH2">{item.name}</h2>
+            <div style={{float:"right", position:"relative",bottom:"45px",right:"15px"}}>
             <DeleteForeverIcon sx={{color:"red",height:"35px",width:"35px"}} onClick={() => handleDelete(item.id)}/>
             <BorderColorIcon  sx={{ color:"white", height:"35px",width:"35px"}} onClick={() => handleUpdate(item.id)}/>
             </div>
           </div>
         );
       })}
+    </div>
     </div>
   );
 }

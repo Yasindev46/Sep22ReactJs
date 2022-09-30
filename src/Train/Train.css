@@ -1,0 +1,73 @@
+  .main {
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid brown;
+    background-color: aqua;
+  }
+  
+  .sub {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid navy;
+    background-color: white;
+  }
+  
+  .bgtitle {
+    margin-left: -50px;
+    position: relative;
+    bottom: 100px;
+    right: 95px;
+    color: black;
+    font-weight: bolder;
+  }
+  .bginput {
+    width: 50%;
+    margin-left: 5px;
+    border: 1px solid black;
+  }
+  .bgremove {
+    margin-left: -30px;
+    position: relative;
+    bottom: 100px;
+    left: -30px;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+  }
+  .bgremove:hover{
+    background-color: red;
+  }
+  h1{
+    color: rgb(77, 255, 0);
+    font-size: 80px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: navy;
+    color: white;
+  }
+  
+  input {
+    font-size: 27px;
+    color: brown;
+    font-weight: bold;
+    width: 100%;
+  }
+  .train{
+position: relative;
+right: -990px;
+/* animation-name: example;
+  animation-duration: 4s; */
+}
+/* 
+@keyframes example {
+  0%   { right:10px; top:0px;}
+  25%  { right:20px; top:0px;}
+  50%  { right:40px; top:0px;}
+  75%  {right:60px; top:0px;}
+  100% { right:80px; top:0px;}
+
+} */

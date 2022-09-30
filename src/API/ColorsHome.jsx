@@ -31,8 +31,8 @@ export const ColorsHome = () => {
 
   return (
     <div style={{marginLeft:"10%"}}>
-      <h1>Colors</h1>
-      <table>
+      <h1>Colors Selction From API</h1>
+      <table border={"2px"}>
         <tr>
           <th>Id</th>
           <th>Name</th>

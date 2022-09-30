@@ -28,6 +28,7 @@ const [alldata,setAlldata]=useState(bikesdata)
     const handleAdd=()=>{
         setArray2([text,...array2])
         console.log(array2)
+        array1.push(text)
     }
 
 return(
@@ -39,7 +40,7 @@ return(
             <h1>{text}</h1>
           </div>
 
-<h1>Mapping on Array of Number</h1>
+{/* <h1>Mapping on Array of Number</h1>
           <div style={{display:"inline-block",border:"2px solid black",boxShadow:"5px 5px 5px black",width:"200px",textAlign:"center"}}>
           {array1.map((item)=>{
             return(
@@ -48,7 +49,7 @@ return(
                 </div>
             )
           })}
-          </div>
+          </div> */}
 
 {/* 
 <h1>Mapping on Array of String</h1>
@@ -60,9 +61,27 @@ return(
                 </div>
             )
           })}
-          </div>
+          </div>*/}
 
-<h1>Mapping on Array of Object</h1>
+{/* <h1>Mapping on Array of Object</h1> */}
+<table>
+  <tr>
+    <th>Name</th>
+    <th>City</th>
+    <th>Fees</th>
+    </tr>
+    {students.map((item)=>{
+            return(
+              <tr>
+                    <td>{item.name}</td>
+                    <td>{item.city}</td>
+                    <td>{item.fees}</td>
+                </tr>
+            )
+          })} 
+
+
+</table>
           {students.map((item)=>{
             return(
                 <div style={{border:"2px solid black",width:"200px",float:"left",marginLeft:"10px"}}>
@@ -72,7 +91,7 @@ return(
                     <h1>{item.fees}</h1>
                 </div>
             )
-          })} */}
+          })} 
 
 
         </>

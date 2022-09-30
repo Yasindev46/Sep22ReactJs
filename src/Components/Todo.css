@@ -41,18 +41,8 @@ input{
     color: white;
     margin-left: 10px;
 }
-/* span{
-    display: none;
-    background-color: rgb(210, 167, 251);
-    padding: 5px;
-    border-radius: 10px;
-} */
-h1:hover + span{
- display: inline;
- position: relative;
- left: 10px;
- /* bottom:50px */
-}
+
+
 h1{
     display: inline-block;
 }

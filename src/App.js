@@ -1,28 +1,15 @@
 import logo from './logo.svg';
-// import './App.css';
-
- import {Login} from "./Components/Login"    //naming export 
-import {Navbar} from "./Components/Navbar"
-import {Todolist} from "./Components/TodoList"
-import {Mapproducts} from "./Components/Mapproducts"
-import { ColorsHome } from './API/ColorsHome';
-import { UpdateTodo } from './Components/UpdateTodo';
-import { TodoAdvance } from './TodoAdvance/TodAdvance';
-
-
+import {Todo} from "./YasinSir/Todo"  //naming import
+import {TodoAdvance} from "./TodoAdvance/TodAdvance"
+import { Todo1 } from './YasinSir/Todo1';
 
 
 function App() {
-
   return (
     <div className="App" >
-      {/* <Navbar/>
-      <Login/> */}
-{/* <ColorsHome/> */}
-<Todolist/>
-{/* <UpdateTodo/> */}
-{/* <TodoAdvance/> */}
-  
+      {/* <TodoAdvance/> */}
+      {/* <Todo/> */}
+      <Todo1/>
     </div>
   );
 }
