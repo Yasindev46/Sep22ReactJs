@@ -19,7 +19,7 @@ function App() {
       {/* <Navbar/>
       <Login/> */}
 {/* <ColorsHome/> */}
-{/* <Todolist/> */}
+<Todolist/>
 {/* <UpdateTodo/> */}
 {/* <TodoAdvance/> */}
   
