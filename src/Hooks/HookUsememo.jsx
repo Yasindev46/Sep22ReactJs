@@ -13,7 +13,7 @@ const DoubleNum=complex(count)
 
 const noRender=useMemo(()=>{
 return <div>
-        <h1> I Render {count} - {name}</h1>
+        <h1> Usememo Render {count} - {name}</h1>
        </div>
 
 },[isUpdate])
@@ -25,7 +25,9 @@ return <div>
         <h1>i render {count} </h1>
         <h1>Name- {name}</h1>
         <button onClick={()=>setCount(count+1)}>Count</button>
+
         <button onClick={()=>setName("PDAC")}>Name</button>
+
         <button onClick={()=>setIsUpdate(true)}>isUpdate</button>
     </div>
   )

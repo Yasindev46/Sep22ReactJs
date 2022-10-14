@@ -10,6 +10,9 @@ import { Toggle2 } from './Components/Toggle2';
 import {Api} from "./API/Api"
 import {ColorsHome} from "./API/ColorsHome"
 import HookRouting from './Hooks/HookRouting';
+import {HookRef} from "./YasinSir/Hooks/HookRef"
+import { Hookmemo } from './YasinSir/Hooks/Hookmemo';
+import { Hookcallback } from './YasinSir/Hooks/Hookcallback';
 
 function App() {
   return (
@@ -24,7 +27,10 @@ function App() {
       {/* <Toggle1/>
       <Toggle2/> */}
       {/* <Api/> */}
-      <HookRouting/>
+      {/* <HookRouting/> */}
+      <HookRef/>
+      {/* <Hookmemo/> */}
+      {/* <Hookcallback/> */}
     </div>
   );
 }

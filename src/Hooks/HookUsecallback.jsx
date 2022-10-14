@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { useCallback, useState,useMemo } from 'react'
 import "./Hooks.css"
 import Todoitem from './Todoitem'
 
@@ -9,6 +9,9 @@ export default function HookUsecallback() {
 const handleCount=()=>{
     setCount(count+1)
 }
+// const handleAdd=()=>{
+//     setTodo((prev)=>[...prev,"New Task"])
+// }
 const handleAdd= useCallback(()=>{
     setTodo((prev)=>[...prev,"New Task"])
 },[todo])
