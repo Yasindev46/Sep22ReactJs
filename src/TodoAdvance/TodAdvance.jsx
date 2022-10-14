@@ -33,6 +33,7 @@ export const TodoAdvance =()=> {
     }
     else {
         const alldata={id:new Date().getTime().toString(),name:text}
+        console.log("===>=>",alldata)
         setList([...list, alldata]);
         setText("")
     }

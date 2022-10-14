@@ -1,0 +1,35 @@
+.square{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.round{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.boxNew{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline;
+}
+.boxNew1{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+}
+.div2{
+    height: 150px;
+    margin-top: 3%;
+    width: 150px;
+    background-color: green;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px black;
+}

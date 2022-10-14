@@ -1,0 +1,16 @@
+.NavDiv a{
+ font-weight: bolder;
+ margin-left: 30px;
+ font-size: 30px;
+ background-color: green;
+ color: white;
+ padding: 5px;
+ border-radius: 20px;
+}
+.NavDiv{
+    
+    margin-top: 10px;
+}
+.mainDiv{
+    text-align: center;
+}

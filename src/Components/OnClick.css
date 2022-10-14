@@ -1,0 +1,48 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1200px; top:0px;}
+    50%  {background-color:blue; left:1200px; top:550px;}
+    75%  {background-color:green; left:0px; top:550px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    margin-left: 40%;
+    margin-top: 20%;
+}

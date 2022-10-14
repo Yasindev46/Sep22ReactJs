@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { DynamicTable } from "./DynamicTable";
 
 export const ColorsHome = () => {
   const [apidata, setApidata] = useState([]);
@@ -80,6 +81,8 @@ export const ColorsHome = () => {
           alignItem:"center"
         }}
       ><h5> Color:-{colorName}</h5></div>
+
+      {/* <DynamicTable data={apidata}/> */}
     </div>
   );
 };
