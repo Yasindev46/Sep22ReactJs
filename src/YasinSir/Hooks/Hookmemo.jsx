@@ -1,10 +1,10 @@
-import React, { useState,useMemo } from 'react'
+import React, { useState,useMemo } from 'react' //import useMemo from react
 
 export const Hookmemo=()=> {
     const [count,setCount]=useState(0)
     const [todo,setTodo]=useState([])
 
-const noRender=useMemo(()=>{
+const noRender=useMemo(()=>{                    // write useMemo to avoid rerender of elements
 return <div> 
         <h1>New Count:- {count}</h1> 
     </div>
@@ -17,7 +17,7 @@ return <div>
       <button onClick={()=>setCount(count+1)}>Increment</button>
       <br /><br />  
 
-      {noRender}
+      {noRender}                              {/* write memoised function */}
 
         {todo.map((item)=>{
             return(

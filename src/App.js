@@ -13,6 +13,7 @@ import HookRouting from './Hooks/HookRouting';
 import {HookRef} from "./YasinSir/Hooks/HookRef"
 import { Hookmemo } from './YasinSir/Hooks/Hookmemo';
 import { Hookcallback } from './YasinSir/Hooks/Hookcallback';
+import { ContextBank } from './YasinSir/Hooks/Context Bank/ContextBank';
 
 function App() {
   return (
@@ -28,9 +29,10 @@ function App() {
       <Toggle2/> */}
       {/* <Api/> */}
       {/* <HookRouting/> */}
-      <HookRef/>
+      {/* <HookRef/> */}
       {/* <Hookmemo/> */}
       {/* <Hookcallback/> */}
+      <ContextBank/>
     </div>
   );
 }
